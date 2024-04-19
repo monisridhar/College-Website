@@ -1,0 +1,95 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design</title>
+<link rel="stylesheet" href="main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+<a href="index.html"><img src="assets/logo.jpg"></a>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="course.html">COURSE</a></li>
+<li><a href="blog.html">BLOG</a></li>
+<li><a href="contact.html">CONTACT US</a></li>
+</ul>
+</div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+   <h1>ABOUT US</h1>
+    
+</section>
+    
+<!-------about us content----->
+
+<section class="about-us">
+<div class="row">
+<div class="about-col">
+<h1>Our Story</h1>
+<h3>VISSION </h3>
+<p>Marudhar Kesari Jain College for Women strives to empower the students,especially those from inclusive society with RIGHT KNOWLEDGE
+ and make them self-sufficient to develop Holistic personality and Excellence in their walks of life, thereby contributing for Rural Societal Development.</p>
+ <h3>MISSION</h3>
+ <p>To develop MKJC into a campus of Academic Excellence.
+To strive for continuous improvement.
+To develop Women Entrepreneurship.
+To help the students acquire traits that helps them to face the challenges of the global competition.
+To aim for upliftment of inclusive society and rural development.</p>
+<a href="" class="hero-btn">EXPLORE NOW</a>
+</div>
+<div class="about-col">
+<img src="assets/about.jpg">
+</div>
+</div>
+ <!------Footer------->         
+        
+  <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>You are Worth Every Mile Between Us</p>
+      <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+      </div>
+     </section>
+        
+        
+        
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--------JavaScript for Toggle Menu----->
+    <script>
+var navLinks=document.getElementById("navLinks");
+        function showMenu()
+        {
+        navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        
+    </script>
+</body>
+</html>

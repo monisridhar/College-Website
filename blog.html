@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design</title>
+<link rel="stylesheet" href="main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="assets/logo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>OUR CERTIFICATES AND ONLINE PROGRAMS</h1>   
+</section>
+
+<!--------BLOG PAGE CONTENT----->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="assets/certificate.jpg">  
+            <h2>Our Certificates & Online Programs for 2022</h1>
+            <p>The Value Added Education Courses aim to provide additional learner centric graded skill 
+             oriented  training, with the primary objective of  improving the employability skills of 
+             students. value added courses are provided to equip the students with knowledge and skills 
+             outside of the curriculum or to meet any specific requirements of the industry. Marudhar 
+             Kesari Jain College for Women, offers various  Value Added Courses which shall be conducted 
+             on College hours(minimum 30 Hours)</p>
+            <br>
+            <p>The department interested in designing a Value Added Course should undertake Training Need 
+            Analysis, discuss with the generic employers, alumni and industrial experts to identify the gaps 
+            and emerging trends before designing the syllabus. Any new Value Added Course developed by a 
+            Department should be approved by the Principal. The course offered should not be the same as any 
+            course listed in the curriculum of the respective programme or any other programme offered in
+            University Departments.</P>
+            <br>
+            <p>Value Added Course is not mandatory to qualify for any programme and the score  earned through 
+            the Value Added Courses shall be over and above the total  requirement prescribed in the curriculum 
+            for the award of the degree. It is a teacher assisted learning course open to all students without 
+            any fee.</p>
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <br>
+                <button type="submit" class="hero-btn">POST COMMENT</button>
+            </div>
+        </div>
+        <div class="blog-right">
+        
+        </div>
+</section>
+ <!------Footer------->         
+        
+  <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>You are Worth Every Mile Between Us</p>
+      <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+      </div>
+     </section>
+        
+        
+        
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--------JavaScript for Toggle Menu----->
+    <script>
+var navLinks=document.getElementById("navLinks");
+        function showMenu()
+        {
+        navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        
+    </script>
+</body>
+</html>
